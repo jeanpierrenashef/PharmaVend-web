@@ -1,0 +1,49 @@
+.achievements {
+    background-color: white;
+    text-align: center;
+  }
+  
+  .achievements h1 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  .achievements-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 2rem;
+  }
+  
+  .achievement {
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .achievement:hover {
+    transform: scale(1.05); 
+  }
+  
+  .achievement h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black; 
+    padding-bottom: 5px;
+  }
+  
+  .achievement h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    padding-bottom: 20px;
+  }
+  
+  .achievement p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+  }
+  

@@ -1,8 +1,8 @@
 import logo from './logo.svg';
-import './App.css';
+import './components/base.css';
 import Navbar from "./components/Navbar/Navbar.jsx"
 import Header from "./components/Header/Header.jsx"
-import Achivements from "./components/Achivements/Achivements.jsx"
+import Achievements from "./components/Achievements/Achievements.jsx"
 import About from "./components/About/About.jsx"
 import Mission from "./components/Mission/Mission.jsx"
 import Products from "./components/Products/Products.jsx"
@@ -12,16 +12,16 @@ import Footer from "./components/Footer/Footer.jsx"
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Header />
-      <Achivements />
-      <About />
+    <div className='container'>
+      {/* <Navbar />
+      <Header /> */}
+      <Achievements />
+      {/* <About />
       <Mission />
       <Products />
       <Machines />
       <Choose />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }
