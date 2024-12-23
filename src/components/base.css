@@ -16,3 +16,10 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
 }
+flex{
+    display: flex;
+}
+column{
+    display: flex;
+    flex-direction: column;
+}
