@@ -1,0 +1,35 @@
+.header{
+    width: 100%;
+}
+.header-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 40vw;
+    gap: 50px;
+}
+.header-text p{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: normal;
+
+}
+.header-text h3{
+    font-weight: 300;
+
+}
+.action-btn {
+    background-color: #23B574;
+    color: white;
+    height: 50px;
+    width: 250px;
+    padding: 130 25px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: all 0.3s;
+    font-size: 20px;
+  }
+  
+  .action-btn:hover {
+    opacity: 0.7;
+  }
