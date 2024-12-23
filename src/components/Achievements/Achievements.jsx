@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Achievements.css";
 import "../base.css";
 
-const Achievement = ({ number, title, description }) => {
+const Achievement = ({ number, title, description, color }) => {
     const [count, setCount] = useState(0);
 
     useEffect(() => {
@@ -25,7 +25,7 @@ const Achievement = ({ number, title, description }) => {
 
     return (
         <div className="achievement">
-            <h3>{count.toLocaleString()}+</h3>
+            <h3 style={{color:color}}>{count.toLocaleString()}+</h3>
             <h4>{title}</h4>
             <p>{description}</p>
         </div>
