@@ -17,8 +17,8 @@ function App() {
       <Header /> 
       <Achievements />
       <About />
-      {/*<Mission />
-      <Products />
+      <Mission />
+      {/*<Products />
       <Machines />
       <Choose />
       <Footer /> */}
