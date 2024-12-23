@@ -14,12 +14,13 @@
 
 .about-disp {
     justify-content: space-between;
-    align-items: stretch; 
+    
+    align-items: flex-start; 
     gap: 50px;
 }
 
 .about-disp div {
-
+    
 }
 
 
@@ -31,11 +32,13 @@
 .about-text h2 {
     margin-bottom: 2rem;
     align-self: flex-start; 
+    padding-bottom: 2rem;
 }
 
 .about-text h4 {
     font-weight: 300;
-    text-align: start 
+    align-items: center;
+    margin: 0;
 }
 
 .map-container {
