@@ -41,16 +41,19 @@ return (
                 number={10000}
                 title="Users"
                 description="Empowering thousands with quick and easy access to medications."
+                color="#23B574"
             />
             <Achievement
                 number={50}
                 title="Machines"
                 description="Strategically placed across Lebanon to serve communities 24/7."
+                color="#00A99E"
             />
             <Achievement
                 number={250000}
                 title="Products"
                 description="Delivering essentials when and where they're needed most."
+                color="#29AAE3"
             />
         </div>
     </section>
