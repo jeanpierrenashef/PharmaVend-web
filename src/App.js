@@ -5,7 +5,7 @@ import Header from "./components/Header/Header.jsx"
 import Achivements from "./components/Achivements/Achivements.jsx"
 import About from "./components/About/About.jsx"
 import Mission from "./components/Mission/Mission.jsx"
-import Product from "./components/Product/Product.jsx"
+import Products from "./components/Products/Products.jsx"
 import Machines from "./components/Machines/Machines.jsx"
 import Choose from "./components/Choose/Choose.jsx"
 import Footer from "./components/Footer/Footer.jsx"
@@ -18,12 +18,10 @@ function App() {
       <Achivements />
       <About />
       <Mission />
-      <Product />
+      <Products />
       <Machines />
       <Choose />
       <Footer />
-      
-
     </div>
   );
 }
