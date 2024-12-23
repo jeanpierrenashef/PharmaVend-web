@@ -4,9 +4,9 @@ import "../base.css"
 
 const Mission = () => {
     return(
-        <section class="mission">
+        <section class="flex column mission">
             <h1>Our Mission</h1>
-            <div class="mission-container">
+            <div class="flex mission-container">
                 <div class="mission-text left">
                     <p>Provide 24/7 access to essential medications and medical supplies,</p>
                     <p>Leverage cutting-edge technology like robotics, IoT, and AI to deliver</p>

@@ -1,0 +1,18 @@
+.mission {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+}
+.mission h1{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000000;
+}
+.mission-container {
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
