@@ -1,33 +1,36 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Navbar.css";
 import logo from "../../Assets/logo.png"
 
 const Navbar = () => {
-    const scrollToSection = (id) => {
-        const section = document.getElementById(id);
-        if (section) {
-        section.scrollIntoView({ behavior: "smooth" });
-        }
-    };
+    const [isScrolled, setIsScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+        setIsScrolled(window.scrollY > 50); 
+        };
+
+        window.addEventListener("scroll", handleScroll);
+            return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
 
     return (
-        <nav className="flex row navbar">
+        <nav className={`flex row navbar ${isScrolled ? "scrolled" : ""}`}>
             <div className="flex row">
                 <div className="nav-logo">
                     <img src={logo} alt="Logo" />
                 </div>
                 <div className="flex row nav-links">
-                    <a onClick={() => scrollToSection("achievements")}>Achievements</a>
-                    <a onClick={() => scrollToSection("about")}>About Us</a>
-                    <a onClick={() => scrollToSection("mission")}>Mission</a>
-                    <a onClick={() => scrollToSection("products")}>Products</a>
-                    <a onClick={() => scrollToSection("machines")}>Machines</a>
-                    <a onClick={() => scrollToSection("whyus")}>Why Us</a>
+                    <a href="#about">About Us</a>
+                    <a href="#mission">Mission</a>
+                    <a href="#products">Products</a>
+                    <a href="#machines">Machines</a>
+                    <a href="#whyus">Why Us</a>
                 </div>
             </div>
-        <button className="button contact-btn">Admin</button>
+            <button className="button contact-btn">Admin</button>
         </nav>
     );
-};
+    };
 
 export default Navbar;

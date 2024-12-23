@@ -1,0 +1,55 @@
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 1); 
+    width: 100%;
+    z-index: 10;
+    padding: 0 50px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar.scrolled {
+    background-color: rgba(255, 255, 255, 0.5); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.nav-logo > img {
+    width: auto;
+    height: 100px;
+    padding: 5px;
+}
+
+.nav-links a {
+    display: flex;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 7px;
+    border-radius: 7px;
+    margin: 0 10px;
+    font-size: 18px;
+    transition: all 0.3s;
+    cursor: pointer;
+    align-items: center;
+}
+
+.nav-links > a:hover {
+background-color: rgba(255, 255, 255, 0.2);
+transform: translateY(-2px);
+}
+
+.contact-btn {
+    background-color: #23B574;
+    color: white;
+    height: 40px;
+    width: 100px;
+    padding: 50 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s;
+    font-size: 14px;
+}
