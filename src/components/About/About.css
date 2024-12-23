@@ -1,4 +1,16 @@
 .about{
     width: 100%;
-    flex-direction: center;
+    justify-content: center;
+    align-items: center;
 }
+.about h1{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000000;
+}
+.about-disp{
+    width: 50vw;
+    justify-content: space-between;
+}
+

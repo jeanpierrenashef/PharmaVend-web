@@ -4,8 +4,8 @@ import '../base.css';
 
 const About = () => {
 return (
-    <section id="about" className="about">
-        <h2>About Us</h2>
+    <section id="about" className="flex column about">
+        <h1>About Us</h1>
         <div className="flex about-disp">
             <div className="flex column about-text">
                 <h2>Revolutionizing Access to Medications</h2>
