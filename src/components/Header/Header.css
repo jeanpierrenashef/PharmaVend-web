@@ -1,5 +1,6 @@
 .header{
     width: 100%;
+    padding: 80px 0;
 }
 .header-text{
     display: flex;
@@ -28,8 +29,8 @@
     font-weight: bold;
     transition: all 0.3s;
     font-size: 20px;
-  }
-  
-  .action-btn:hover {
+}
+
+.action-btn:hover {
     opacity: 0.7;
-  }
+}
