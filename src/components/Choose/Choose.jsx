@@ -1,5 +1,6 @@
 import React from "react";
 import "./Choose.css";
+import "../base.css";
 
 const WhyChooseUs = () => {
 const services = [
