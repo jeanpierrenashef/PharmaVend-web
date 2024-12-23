@@ -1,7 +1,11 @@
 .achievements {
     background-color: white;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
+
   
   .achievements h1 {
     margin-bottom: 2rem;
@@ -12,8 +16,10 @@
   
   .achievements-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
   }
   
   .achievement {
@@ -21,6 +27,8 @@
     border-radius: 10px;
     text-align: center;
     transition: transform 0.3s ease;
+    min-width: 150px;
+    max-width: 250px;
   }
   
   .achievement:hover {
