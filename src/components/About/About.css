@@ -10,7 +10,11 @@
     color: #000000;
 }
 .about-disp{
-    width: 50vw;
     justify-content: space-between;
+    gap: 20px
 }
+.about-disp div{
+    width: 50%;
+}
+
 
