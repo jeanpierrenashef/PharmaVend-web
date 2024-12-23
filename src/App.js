@@ -20,8 +20,8 @@ function App() {
       <Mission />
       <Products />
       <Machines />
-      {/*<Choose />
-      <Footer /> */}
+      <Choose />
+      {/*<Footer /> */}
     </div>
   );
 }
