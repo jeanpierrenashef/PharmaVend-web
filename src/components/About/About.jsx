@@ -7,7 +7,7 @@ return (
     <section id="about" className="flex column about">
         <h1>About Us</h1>
         <div className="flex about-disp">
-            <div className="flex column about-text">
+            <div className="about-text">
                 <h2>Revolutionizing Access to Medications</h2>
                 <h4>
                     At PharmaVend, we are committed to redefining how people access

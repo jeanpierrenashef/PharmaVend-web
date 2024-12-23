@@ -11,10 +11,16 @@
 }
 .about-disp{
     justify-content: space-between;
-    gap: 20px
+    gap: 100px
 }
 .about-disp div{
     width: 50%;
 }
 
+.about-text h2{
+    margin-bottom: 2rem;
+}
+.about-text h4{
+    font-weight: 300;
+}
 
