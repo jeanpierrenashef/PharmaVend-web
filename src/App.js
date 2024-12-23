@@ -16,8 +16,8 @@ function App() {
       {/* <Navbar />*/}
       <Header /> 
       <Achievements />
-      {/* <About />
-      <Mission />
+      <About />
+      {/*<Mission />
       <Products />
       <Machines />
       <Choose />
