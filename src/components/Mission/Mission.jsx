@@ -1,7 +1,7 @@
 import React from "react";
 import "./Mission.css";
 import "../base.css"
-import capsuleImage from "./capsule.png"
+import capsuleImage from "../../Assets/capsule.png"
 
 const Mission = () => {
     return(
