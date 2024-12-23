@@ -18,8 +18,8 @@ function App() {
       <Achievements />
       <About />
       <Mission />
-      {/*<Products />
-      <Machines />
+      <Products />
+      {/*<Machines />
       <Choose />
       <Footer /> */}
     </div>
