@@ -19,8 +19,8 @@ function App() {
       <About />
       <Mission />
       <Products />
-      {/*<Machines />
-      <Choose />
+      <Machines />
+      {/*<Choose />
       <Footer /> */}
     </div>
   );
