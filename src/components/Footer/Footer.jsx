@@ -9,37 +9,37 @@ import twitterIcon from "../../Assets/twitter.png";
 
 const Footer = () => {
     return(
+        <section className="footer-section">
             <footer className="footer">
             <div class="footer-container">
                 <div class="footer-section sitemap">
-                    <h4>GAME-MAZE RUNNER</h4>
+                    <h2>PharmaVend</h2>
                     <div class="footer-columns">
                         <div class="column">
-                            <h5>Discover Maze Runner</h5>
+                            <h5>Discover PharmaVend</h5>
                             <ul>
-                                <li><a href="#">Our Winning Game</a></li>
-                                <li><a href="#">Entertainment</a></li>
+                                <li><a href="#">Our Awards</a></li>
+                                <li><a href="#">Medicine</a></li>
                                 <li><a href="#">Our Story</a></li>
                                 <li><a href="#">Community Members</a></li>
                                 <li><a href="#">Partners</a></li>
                             </ul>
                         </div>
                         <div class="column">
-                            <h5>Our Games</h5>
+                            <h5>Our Healthcare Partners</h5>
                             <ul>
-                            <li><a href="#">Gaming</a></li>
+                            <li><a href="#">Healthy</a></li>
                             <li><a href="#">Enjoyement</a></li>
-                            <li><a href="#">Meeting new people</a></li>
-                            <li><a href="#">Hunting Rooms</a></li>
-                            <li><a href="#">Ghosts</a></li>
+                            <li><a href="#">Comfort</a></li>
+                            <li><a href="#">Happiness</a></li>
                             </ul>
                         </div>
                         <div class="column">
-                            <h5>Other Games</h5>
+                            <h5>Other Services</h5>
                             <ul>
                                 <li><a href="#">About Us</a></li>
-                                <li><a href="#">Maze Runner</a></li>
-                                <li><a href="#">Play This Game</a></li>
+                                <li><a href="#">PharmaVend Online</a></li>
+                                <li><a href="#">Contact Us</a></li>
                                 <li><a href="#">Get in Touch</a></li>
                             </ul>
                         </div>
@@ -48,7 +48,7 @@ const Footer = () => {
         
                 <div class="footer-section contact">
                     <h4>Subscribe to our Newsletter</h4>
-                    <p>Email: <a href="mailto:mazeRunner@game.com">mailto:mazeRunner@game.com</a></p>
+                    <p>Email: <a href="mailto:PharmaVend.com">mailto:PharmaVend.com</a></p>
                     <p>Phone: <a href="tel:+9611660941">+961 1 66 09 41</a></p>
         
 
@@ -59,7 +59,7 @@ const Footer = () => {
                 </div>
             </div>
                 <div className="footer-bottom">
-                    <p>&copy; 2024 MAZE RUNNER By <a href="#">Bright Volcano</a></p>
+                    <p>&copy; 2024 PharmaVend <a href="#"></a></p>
                     <div className="social-links">
                         <a href="#"><img src={facebookIcon} alt="Facebook"/></a>
                         <a href="#"><img src={instagramIcon} alt="Instagram"/></a>
@@ -67,6 +67,7 @@ const Footer = () => {
                     </div>
                 </div>
             </footer>
+    </section>
     );
 }
 export default Footer;
