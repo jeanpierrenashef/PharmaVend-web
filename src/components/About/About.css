@@ -1,4 +1,8 @@
 .about {
+    position:relative;
+    background: url('../../Assets/bg2.jpg') no-repeat center center; 
+    background-size: cover; 
+    padding: 0;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -9,7 +13,7 @@
     margin-bottom: 2rem;
     font-size: 2rem;
     font-weight: bold;
-    color: #000000;
+    color: #ffffff;
 }
 
 .about-disp {
@@ -28,12 +32,14 @@
     margin-bottom: 2rem;
     align-self: flex-start; 
     padding-bottom: 2rem;
+    color: white;
 }
 
 .about-text h4 {
     font-weight: 300;
     align-items: center;
     margin: 0;
+    color: white;
 }
 
 .map-container {
