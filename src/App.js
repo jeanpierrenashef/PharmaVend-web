@@ -21,7 +21,7 @@ function App() {
       <Products />
       <Machines />
       <Choose />
-      {/*<Footer /> */}
+      <Footer />
     </div>
   );
 }

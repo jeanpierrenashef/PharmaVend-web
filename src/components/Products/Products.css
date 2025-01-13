@@ -1,11 +1,12 @@
 .products {
-    
+    padding-top: 40px;
     width: 100%;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding-bottom: 80px;
     overflow: hidden; 
+    gap: 20px;
 }
 
 .products h1 {
@@ -13,22 +14,27 @@
     font-weight: bold;
     margin-bottom: 2rem;
     color: #000;
+    
 }
 .products h4 {
     font-weight: 300;
     padding: 0 120px;
+    padding-bottom: 50px;
 }
 
 .scroll-buttons {
+
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
     position: relative;
     width: 100%; 
+    height: auto;
 }
 
 .products-container {
+
     display: flex;
     gap: 20px;
     overflow-x: hidden; 
@@ -51,6 +57,7 @@
     align-items: center;
     border-radius: 10px;
     flex-shrink: 0;
+    border: 1px solid #cccccc;
 }
 
 .product-box img {
