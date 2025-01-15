@@ -1,7 +1,7 @@
 import React from 'react';
 import './Machines.css';
 import '../base.css';
-import video from "./Media1.mp4";
+import video from "./Rail_Assembly.mp4";
 
 const Machines = () => {
 return (

@@ -1,20 +1,27 @@
 .solutions {
+    position:relative;
+    background: url('../../Assets/bg4.jpg') no-repeat center center; 
+    background-size: cover; 
     display: flex;
+    margin: 0 -60px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    padding: 0px 80px;
+    padding-top: 60px;
     text-align: center;
     padding-bottom: 80px;
 }
 
-
+.solutions p{
+    color: white;
+    font-size: 18px;
+}
 .solutions h1 {
     margin-bottom: 2rem;
     font-size: 2rem;
     font-weight: bolder;
-    color: #000000;
+    color: #ffffff;
 }
 
 
@@ -25,6 +32,7 @@
 }
 
 .service-containers {
+    padding: 0px 80px;
     display: flex;
     width: 100%;
     padding: 50px;

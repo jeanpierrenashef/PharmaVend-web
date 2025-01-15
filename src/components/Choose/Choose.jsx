@@ -33,11 +33,11 @@ return (
             <h1>
             Why Choose Us?
             </h1>
-            <h4>
+            <p>
             Our expertise spans across branding, advertising, and user experience
             design, offering tailored solutions to elevate your business and
             engage your audience effectively.
-            </h4>
+            </p>
         </section>
         <div className="flex row service-containers">
             {services.map((service) => (
