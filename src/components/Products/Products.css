@@ -67,11 +67,11 @@
 }
 
 .scroll-btn {
-    background-color: #555555;
+    background-color: rgb(32, 181, 115, 1);
     color: #fff;
     border: none;
     padding: 5px 10px;
-
+    border-radius: 100%;
     cursor: pointer;
     font-size: 1.2rem;
     display: flex;

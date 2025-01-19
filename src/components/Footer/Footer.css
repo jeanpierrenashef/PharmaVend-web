@@ -1,12 +1,13 @@
 .footer-section{
     width: 100vw;
+    
 }
 footer {
     border-top: 1px solid black;
     background-color: rgb(255, 255, 255);;
     color: #000000;
     padding: 40px 60px;
-    
+    margin-left: -60px;
 }
 
 
@@ -35,11 +36,16 @@ footer {
     margin-bottom: 5px;
 }
 
-
+.footer-section .contact{
+    display: flex;
+    flex-direction: column;
+    padding-left: 250px;
+}
 
 .footer-columns {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap: 50px;
 }
 
 .footer-columns .column {

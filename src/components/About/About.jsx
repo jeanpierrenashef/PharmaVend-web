@@ -33,7 +33,7 @@ const About = () => {
                             when and where you need them most.
                         </h4>
                     </div>
-                    <div className="map-container" style={{ width: '800px', height: '300px' }}>
+                    <div className="map-container" style={{ width: '540px', height: '300px' }}>
                         <MapComponent machines={machines} />
                     </div>
                 </div>

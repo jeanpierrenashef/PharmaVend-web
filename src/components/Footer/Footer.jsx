@@ -13,9 +13,10 @@ const Footer = () => {
             <footer className="footer">
             <div class="footer-container">
                 <div class="footer-section sitemap">
-                    <h2>PharmaVend</h2>
+                    <h1>PharmaVend</h1>
                     <div class="footer-columns">
                         <div class="column">
+                            
                             <h5>Discover PharmaVend</h5>
                             <ul>
                                 <li><a href="#">Our Awards</a></li>
@@ -43,18 +44,17 @@ const Footer = () => {
                                 <li><a href="#">Get in Touch</a></li>
                             </ul>
                         </div>
-                    </div>
-                </div>
-        
-                <div class="footer-section contact">
-                    <h4>Subscribe to our Newsletter</h4>
-                    <p>Email: <a href="mailto:PharmaVend.com">mailto:PharmaVend.com</a></p>
-                    <p>Phone: <a href="tel:+9611660941">+961 1 66 09 41</a></p>
-        
+                        <div class="footer-section contact">
+                            <h4>Subscribe to our Newsletter</h4>
+                            <p>Email: <a href="mailto:PharmaVend.com">mailto:PharmaVend.com</a></p>
+                            <p>Phone: <a href="tel:+9611660941">+961 1 66 09 41</a></p>
+                
 
-                    <div class="app-links">
-                        <a href="#"><img src={appStore} alt="App Store"/></a>
-                        <a href="#"><img src={googlePlay} alt="Google Play"/></a>
+                            <div class="app-links">
+                                <a href="#"><img src={appStore} alt="App Store"/></a>
+                                <a href="#"><img src={googlePlay} alt="Google Play"/></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
